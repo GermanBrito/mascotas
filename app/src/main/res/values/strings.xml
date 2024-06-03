@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Can&amp;Fel</string>
+    //Login Strings
+    <string name="welcomeMsg">Bienvenido</string>
+    <string name="User">Usuario</string>
+    <string name="Passwrd">Contraseña</string>
+    <string name="Signup">Registrarse</string>
+    <string name="Login">Ingresar</string>
+    <string name="already_registered">¿Ya estás registrado? Inicia sesión</string>
+    <string name="to_signup">¿No tienes cuenta? Regístrate</string>
+
+    //Menu Strings
+    <string name="about">Acerca de nosotros</string>
+    <string name="MyInfo">Mi información</string>
+    <string name="exit">Salir</string>
+    <string name="publicGlobal">Publicaciones</string>
+    <string name="map">Mapa</string>
+    <string name="myPublic">Mis publicaciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
