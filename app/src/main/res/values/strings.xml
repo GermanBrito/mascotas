@@ -1,13 +1,19 @@
 <resources>
     <string name="app_name">Can&amp;Fel</string>
-    //Login Strings
+    //Login and Register Strings
     <string name="welcomeMsg">Bienvenido</string>
-    <string name="User">Usuario</string>
-    <string name="Passwrd">Contraseña</string>
-    <string name="Signup">Registrarse</string>
-    <string name="Login">Ingresar</string>
+    <string name="user">Usuario</string>
+    <string name="passwrd">Contraseña</string>
+    <string name="signup">Registrarse</string>
+    <string name="login">Ingresar</string>
     <string name="already_registered">¿Ya estás registrado? Inicia sesión</string>
     <string name="to_signup">¿No tienes cuenta? Regístrate</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="phone">Teléfono</string>
+    <string name="mail">Correo</string>
+    <string name="profilePic">Foto de perfil</string>
+
 
     //Menu Strings
     <string name="about">Acerca de nosotros</string>

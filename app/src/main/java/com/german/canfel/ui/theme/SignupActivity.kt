@@ -26,7 +26,13 @@ class SignupActivity : AppCompatActivity() {
         binding.signupButton.setOnClickListener {
             val signupUsername = binding.signupUsername.text.toString()
             val signupPassword = binding.signupPassword.text.toString()
-            signupDatabase(signupUsername, signupPassword)
+            val signupName = binding.signupName.text.toString()
+            val signupSurname = binding.signupSurname.text.toString()
+            val signupPhone = binding.signupPhone.text.toString()
+            val signupMail = binding.signupMail.text.toString()
+
+
+            signupDatabase(signupUsername, signupPassword, signupName, signupSurname, signupPhone, signupMail)
         }
 
         binding.loginRedirect.setOnClickListener {
@@ -37,8 +43,8 @@ class SignupActivity : AppCompatActivity() {
     }
 
 
-    private fun signupDatabase(username: String, password: String) {
-        val insertedRowId = databaseHelper.insertUser(username, password)
+    private fun signupDatabase(username: String, password: String, name: String, surname: String, phone: String, mail: String) {
+        val insertedRowId = databaseHelper.insertUser(username, password, name, surname, phone, mail)
         if (insertedRowId != -1L){
             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, LoginActivity::class.java)
